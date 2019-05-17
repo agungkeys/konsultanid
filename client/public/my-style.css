@@ -1,0 +1,26 @@
+.searchLocation, .searchLocation div.input{
+    width: 100% !important;
+}
+.searchLocation.ui.search .results{
+    width: 100% !important;
+}
+.searchLocation div.input input{
+    border: 0px solid !important;
+    border-radius: 0;
+    padding-left: 3rem;
+}
+.searchLocation>div.results{
+    margin-top: .8em !important;
+}
+
+.ui.form input:not([type]):focus, .ui.form input[type=date]:focus, .ui.form input[type=datetime-local]:focus, .ui.form input[type=email]:focus, .ui.form input[type=file]:focus, .ui.form input[type=number]:focus, .ui.form input[type=password]:focus, .ui.form input[type=search]:focus, .ui.form input[type=tel]:focus, .ui.form input[type=text]:focus, .ui.form input[type=time]:focus, .ui.form input[type=url]:focus,
+.ui.input>input:focus {
+    border-color: #2a41e8 !important;
+}
+
+.red-text{
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    color: red;
+}
